@@ -1,6 +1,5 @@
 import Link from "next/link";
-import profile from "../images/profile.png";
-import "./page.css";
+
 const Main = () => {
   return (
     <div className=" absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full   max-w-screen-myMd mx-auto ">

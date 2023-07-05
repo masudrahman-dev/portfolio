@@ -16,12 +16,13 @@ const Card = ({ project }) => {
   return (
     <div className="border p-5 rounded-lg shadow-lg ">
       <div className="">
-        <img
+        <Image
           className="rounded-lg"
-          width={350}
+          width={450}
+          height={350}
           src={thumbnail}
-          alt="project card photo"
-        ></img>
+          alt=""
+        ></Image>
         <div className="mt-7">
           <h3 className="text-xl mb-3">{name}</h3>
           <h4 className=" underline mb-2">Features:</h4>
