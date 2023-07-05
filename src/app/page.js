@@ -15,13 +15,13 @@ const Main = () => {
               Resume
             </button>
           </Link>
-          <Link href={"/skills"} target="_blank">
+          <Link href={"/skills"} >
             <button className="border p-3 rounded-md hover:border-green-400  hover:text-green-400 hover:scale-105 transition duration-300">
               Skills
             </button>
           </Link>
 
-          <Link target="_blank" href={"/projects"}>
+          <Link href={"/projects"}>
             <button className="border p-3 rounded-md hover:border-green-400  hover:text-green-400 hover:scale-105 transition duration-300">
               Projects
             </button>
