@@ -20,7 +20,8 @@ export default function RootLayout({ children }) {
               <li>
                 <Link href={"/"}>
                   <Image
-                    className="w-14 border   rounded-full object-fill"
+                    className=" border   rounded-full object-fill"
+                    width={60}
                     src={profile}
                     alt="pro"
                   ></Image>
