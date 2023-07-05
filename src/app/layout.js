@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
                 <Link href={"/contact"}>
                   <button
                     className="border       
-                 animate-pulse   p-3 rounded-md hover:border-green-400  hover:text-green-400 "
+                 animate-pulse   p-2  md:p-3 rounded-md hover:border-green-400  hover:text-green-400 "
                   >
                     +88 01704445275 | masudrahman.dev@gmail.com
                   </button>
