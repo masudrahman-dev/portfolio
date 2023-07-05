@@ -8,15 +8,13 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Masud Rahman",
   description: "MERN Stack Developer",
-  
-
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <main className="px-2">
+      <body className={`${inter.className} bg-black text-white`}>
+        <main className="px-2 ">
           <nav className="max-w-screen-myMd mx-auto mt-7">
             <ul className="flex flex-col gap-5 md:flex-row justify-between items-center">
               <li>
